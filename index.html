@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Twinkle | MCA Student Portfolio</title>
+<meta name="description" content="Portfolio of Twinkle, a Master of Computer Applications student.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<header class="nav">
+<a href="#top" class="logo">twinkle<span>.</span></a>
+<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+</header>
+<main id="top">
+<section class="hero">
+<p class="tag">MCA Student · Developer · Learner</p>
+<h1>Hi, I'm <span class="grad">Twinkle</span>.<br>I build things for the web.</h1>
+<p class="sub">Master of Computer Applications student exploring full-stack development, data and creative code.</p>
+<div class="cta"><a class="btn" href="#projects">View my work</a><a class="btn ghost" href="#contact">Get in touch</a></div>
+<div class="scroll">scroll</div>
+</section>
+
+<section id="about" class="wrap">
+<h2 class="reveal">About <span class="grad">me</span></h2>
+<div class="grid two">
+<img class="reveal photo" src="https://picsum.photos/seed/twinkle-about/700/700" alt="Portrait placeholder" loading="lazy">
+<div class="reveal">
+<p>I'm pursuing my MCA with a focus on building clean, useful software. I enjoy turning ideas into working products, from responsive interfaces to the logic behind them.</p>
+<p>Outside coursework I experiment with automation, open source and small side projects to keep learning by doing.</p>
+<div class="stats"><div><b data-n="10">0</b><small>Projects</small></div><div><b data-n="6">0</b><small>Technologies</small></div><div><b data-n="2">0</b><small>Years of MCA</small></div></div>
+</div>
+</div>
+</section>
+
+<section id="skills" class="wrap">
+<h2 class="reveal">My <span class="grad">skills</span></h2>
+<div class="grid four">
+<div class="card reveal"><h3>Frontend</h3><p>HTML, CSS, JavaScript, React</p><i style="--w:85%"></i></div>
+<div class="card reveal"><h3>Backend</h3><p>Python, Node.js, REST APIs</p><i style="--w:75%"></i></div>
+<div class="card reveal"><h3>Databases</h3><p>MySQL, MongoDB, SQL</p><i style="--w:70%"></i></div>
+<div class="card reveal"><h3>Tools</h3><p>Git, GitHub, n8n, VS Code</p><i style="--w:80%"></i></div>
+</div>
+</section>
+
+<section id="projects" class="wrap">
+<h2 class="reveal">Selected <span class="grad">projects</span></h2>
+<div class="grid three">
+<article class="proj reveal"><img src="https://picsum.photos/seed/proj-one/600/400" alt="Project one" loading="lazy"><div><h3>Task Manager App</h3><p>A full-stack to-do app with authentication and a clean dashboard.</p><span>JavaScript · Node · MongoDB</span></div></article>
+<article class="proj reveal"><img src="https://picsum.photos/seed/proj-two/600/400" alt="Project two" loading="lazy"><div><h3>Data Insights Dashboard</h3><p>Interactive charts that turn raw datasets into readable stories.</p><span>Python · Pandas · Charts</span></div></article>
+<article class="proj reveal"><img src="https://picsum.photos/seed/proj-three/600/400" alt="Project three" loading="lazy"><div><h3>Workflow Automation</h3><p>Automated alerts and reports connecting everyday tools together.</p><span>n8n · APIs · Webhooks</span></div></article>
+</div>
+</section>
+
+<section id="contact" class="wrap contact">
+<h2 class="reveal">Let's <span class="grad">connect</span></h2>
+<p class="reveal">Open to internships, collaborations and fresh ideas.</p>
+<a class="btn reveal" href="mailto:twinkle7568@gmail.com">twinkle7568@gmail.com</a>
+</section>
+</main>
+<footer>&copy; <span id="yr"></span> Twinkle. Built with HTML, CSS, JS and Three.js.</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
